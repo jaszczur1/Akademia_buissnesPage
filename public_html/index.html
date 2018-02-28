@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+        <script src="bower_components/tether/dist/js/tether.js"></script>
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="bower_components/jquery-ui/themes/blitzer/jquery-ui.min.css">
+
+        <script src="bower_components/jquery-ui/jquery-ui.js"></script>
+        <link rel="stylesheet" href="styleSheets/mainStyle.css">
+
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-toggleable-md navbar-light bg-faded fixed-top" style="background-color: #5cb3fd">
+
+            <div class="navbar-brand">
+                <img src="images/Logo_good2_60_0.GIF" id="logo">
+            </div>
+
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#" id="home-nav">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="owners-nav">Właściciele</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="coatch-nav">Trenerzy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="plannig-nav">Harmonogram Zajeć</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="regulamin-nav">Regulamin</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="contact-nav" onClick="fu()">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container">
+
+            <!----------------------------------------------------------------------------------------------------------->
+
+            <div class="row for-each" id="home-div">
+
+                <div class="jumbotron" id="position-map">
+                    <h1>Akademia pływania</h1>
+                    <p>Zajęcia odbywają się w obiekcie pływalnia polonez</p>
+                    <div id="container-map">
+                        <div id='map'></div>
+                    </div>
+                    <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+                </div>
+
+            </div>
+
+            <!----------------------------------------------------------------------------------------------------------->
+
+
+            <div class="row for-each" id="owners-div">
+
+                <div class="col-12"><h1>Właściciele</h1></div>
+                <div class="col-md-6">
+                    <img src="images/Bartek_male.gif" class="img_div">
+                </div>
+                <div class="col-md-6">
+
+                    mgr Bartosz Kizierowski<br>
+                    olimpijczyk z Atlanty 1996, z Sydney 2000, z Aten 2004 (chorąży), Pekin 2008<br>
+                    mistrz Europy<br>
+                    medalista Mistrzostw Świata<br>
+                    medalista Uniwersjady<br>
+                    wielokrotny mistrz Polski<br>
+                    aktualny trener Konrada Czerniaka i kadry Hiszpanii<br>
+                    absolwent Uniwersytetu Kalifornijskiego w Berkeley<br>
+                </div>
+
+                <div class="col-md-6">
+                    mgr Grzegorz Kircun<br>
+                    absolwent AWF w Warszawie<br>
+                    mistrz i rekordzista Polski<br>
+                    trener II klasy pływania<br>
+                    ratownik wodny<br>
+                    sędzia pływania<br>
+                    menedżer sportu<br>
+                    wieloletnia praktyka pedagogiczna<br>
+                </div>
+
+                <div class="col-md-6">
+                    <img src="images/grzegorz.jpg" class="img_div" style="max-width: 50%">
+                </div>
+
+            </div>
+
+            <!----------------------------------------------------------------------------------------------------------->            
+
+            <div class="row for-each" id="coatch-div">
+
+                <div class="col-12"><h1>Nasi Trenerzy</h1></div>
+                <div class="col-md-4">
+                    <img src="images/medium_zdjęcie Karolina Zapendowska1.jpg" class="img-coatch">
+                    <div class="lupa">
+                        <h2>Karolina Zapendowska</h2>
+                        - Instruktor dyscypliny sportu<br>
+                        - specjalizacja pływanie<br>
+                        - ratownik wodny WOPR<br>
+                        - medalistka i finalista Mistrzostw Polski<br>
+
+                        <!--                        <img src="images/lupa.png" class="_runLupa">-->
+                    </div>
+                </div>
+
+                <div class="col-md-4" ><img src="images/igor123.jpg">
+                    <div class="lupa">
+                        <!--                        <img src="images/lupa.png" class="_runLupa">-->
+
+                        <h2>Igor Skibiński</h2>
+                        - Instruktor Dyscypliny Sportu - specjalizacja pływanie<br>
+                        - Instruktor Rekreacji Ruchowej - specjalizacja pływanie<br>
+                        - Ratownik Wodny WOPR<br>
+                        - były rekordzista i zawodnik Polonii W-wa i BUKS W-wa<br>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4" ><img src="images/agata123.jpg">
+                    <div class="lupa">
+                        <!--                        <img src="images/lupa.png" class="_runLupa">-->
+                        <h2>Agata Lewandowska</h2>
+                        - Instruktor Dyscypliny Sportu - specjalizacja pływanie<br>
+                        - Instruktor Rekreacji Ruchowej - specjalizacja pływanie<br>
+                        - Ratownik Wodny WOPR<br>
+                        - Medalistka i finalistka Mistrzostw Polski<br>
+                    </div>
+                </div>
+            </div>
+
+            <!----------------------------------------------------------------------------------------------------------->
+
+            <div class="row for-each" id="plannig-div">
+                <div class="col-12"><h1>Plan Zajęć</h1></div>
+
+                <div class="col-md-6">
+                    Mały basen:<br>
+                    - zajęcia od podstaw dla dzieci w wieku 4 - 7 lat<br>
+                    <br>   
+                    wtorek, czwartek - 18.45, 19.15 <br>
+                    sobota - 10.30, 11.00, 11.30, 12.00 <br>
+                    <br>
+                    <br>
+
+                    Duży basen:  <br>
+                    - grupa słaba : <br>
+                    wtorek, czwartek - 18.00 <br>
+                    piątek - 18.00, 18.30 <br>
+                    sobota - 10.30, 11.00 <br>
+
+                    <br>
+                    <br>
+
+                    - grupa średniozaawansowana:  <br>
+
+                    wtorek - 18.30    <br>
+                    środa - 18.00, 18.30 <br>
+                    czwartek  - 18.30 <br>
+                    sobota - 11.30 <br>
+
+                    <br>
+                    <br>
+
+                    - grupa zaawansowana: <br>
+                    wtorek, środa,czwartek, piatek - 19.00 <br>
+                    sobota - 12.00 <br>
+
+                </div>
+                <div class="col-md-6">
+                    <img src="images/4.JPG">
+                    <img src="images/5.JPG">
+                </div>
+            </div>
+
+            <!----------------------------------------------------------------------------------------------------------->    
+
+            <div class="row for-each" id="regulamin-div">
+                <div class="col-12"><h1>Regulamin</h1></div>
+                <div class="col-12">
+                    <ol>
+                        <li>Uczestnicy zobowiązani są do zapoznania się z regulaminem zajęć Akademii Pływania Kizierowskiego i do jego przestrzegania.</li>
+                        <li>W zajęciach mogą brać udział jedynie osoby, u których nie stwierdzono żadnych medycznych przeciwwskazań do zajęć w wodzie.</li>
+                        <li>Uczestnicy zobowiązani są do zapoznania się z regulaminem pływalni, na której odbywają się zajęcia i do jego przestrzegania.</li>
+                        <li>Na płytę basenu mogą wejść osoby przebrane w stój sportowy oraz klapki.</li>
+                        <li>Osoby robiące zdjęcia lub nagrywające filmy podczas zajęć, proszone są o posiadanie stroju sportowego: klapki, spodenki, koszulka.</li>
+                        <li>Wszelkie kwestie organizacyjne prosimy uzgadniać z instruktorami i pracownikami Akademii Pływania Kizierowskiego.</li>
+                        <li>Do uczestnictwa w zajęcia uprawnia imienny karnet. Karnetu nie można udostępniać osobom trzecim.</li>
+                        <li>Karnet na zajęcia uprawnia do otrzymania 60-minutowej wejściówki na basen. Przekroczenie tego czasu zobowiązuje rodziców/opiekunów do dokonania dopłaty za każdą przekroczoną minutę wg cennika pływalni kasie w OSiR-u. </li>
+                        <li>Akademia Pływania Kizierowskiego nie ponosi odpowiedzialności za rzeczy pozostawione w szatni oraz na płycie basenu.</li>
+                        <li>W przypadku ZGŁOSZONEJ nieobecności zajęcia można odrobić z inna grupą. Termin odrobienia zajęć należy każdorazowo uzgodnić. Zajęcia można odrabiać jedynie w czasie obowiązywania karetu. Nieodrobione zajęcia nie przechodzą na kolejny kurs.</li>
+                        <li>Nieobecności należy zgłaszać sms’em na numer 600 878 430 lub mail’em na adres: info@akademia-kizierowskiego.pl</li>
+                        <li>Akademia Pływania Kizierowskiego zastrzega sobie prawo do zmiany regulaminu.</li>
+                    </ol>
+                </div>
+                <!----------------------------------------------------------------------------------------------------------->             
+
+                <div id="contact-div">
+
+                    <h3>Kontakt w celu :</h3>
+                    Uzyskania Informacji, zapisów i zgłaszania nieobecności<br> 
+                    prosimy dzwonić pod numer telefonu:<br>
+                    +48 600 878 430<br>
+                    Kontakt w celu uzyskania informacji i zapisów:<br>
+                    e-mail: info@akademia-kizierowskiego.pl<br>
+                    <br>
+                    Sprawy organizacyjne Grzegorz Kircun numer telefonu:<br>
+                    +48 600 832 015<br>
+                    Nr konta Akademii<br>
+                    92 1050 1054 1000 0022 7868 8334<br>
+                </div>
+
+                </body>  
+                <script src="javascripts/javascript.js" type="text/javascript"></script>
+                </html>
